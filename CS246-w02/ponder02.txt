@@ -1,0 +1,50 @@
+# 02 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Vacation Calendar activity.
+We did a Vacation Calculator. Not much happened.
+
+2. For the Game of Life assignment, what advantages do you see in using interfaces to define creature behaviors, rather than subclasses?
+Because I can define behaviours that are common to non-family related classes.
+
+3. Did you complete the Stretch Challenge for the Game of Life Assignment? If so, briefly describe what you did, and how you structured your code.
+Yes, I did. I created a Zombie Hunter class that moves diagonally and randomly over the map, one step at the time. There's only one ZH in the game.
+He has 100 points of life. He kills zombies, and wolves. They can hurt him, and even kill him. He can recover health from the plants, though
+when doing so he could kill them. At the end of the game sometimes he survives, sometimes he doesn't.
+The ZombieHunter inherits from the Creature class, and implements Aggresive and Movable interfaces.
+
+4. What did you learn from comparing your code to the teacher's solution?
+Teacher forgot to do the Stretch Challenge. His codes was way simpler than mine. I can use enums when I have to choose from many options in
+a condition.
+
+
+5. After completing the assignments this week, what questions do you still have?
+I would like to work over UML diagrams. So I could understand more about the relationship of classes. Is there an add-on from IntellIJ toshow those relationships?
+
+
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+I would add more interactions between the current classes.
+
+
+7. A common Java interview question is "describe the difference between an interface and an abstract class". How would you answer that question?
+Interface only describes behaviour. Abstract classes act as regular classes, though they cannot be instantiated (or used, let's say). They're more like an idea of something, and 
+they never can be any something.
+
+
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+Not sure. Mayble the examples from TutorialsPoint.
+
+
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+Not sure.
+
+
+10. How many hours did you spend on this class this week?
+
+02 Prepare - 5
+02 Teach - 5
+02 Prove 1st Attempt - 10
+02 Prove 2nd Attempt - 0
+02 Ponder - 1
+----------------------------
+Total Hours - 21
+

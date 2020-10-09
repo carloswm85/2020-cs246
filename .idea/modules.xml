@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2020-cs246.iml" filepath="$PROJECT_DIR$/2020-cs246.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w02/prove02/GameOfLife/GameOfLife.iml" filepath="$PROJECT_DIR$/CS246-w02/prove02/GameOfLife/GameOfLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w02/prove02/GameOfLife_originalSourceCode/GameOfLife_originalSourceCode.iml" filepath="$PROJECT_DIR$/CS246-w02/prove02/GameOfLife_originalSourceCode/GameOfLife_originalSourceCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA-Json-Example/JAVA-Json-Example.iml" filepath="$PROJECT_DIR$/JAVA-Json-Example/JAVA-Json-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w02/prove02/prove02.iml" filepath="$PROJECT_DIR$/CS246-w02/prove02/prove02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w03/prove03/prove03.iml" filepath="$PROJECT_DIR$/CS246-w03/prove03/prove03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w03/prove03-solution/prove03-solution.iml" filepath="$PROJECT_DIR$/CS246-w03/prove03-solution/prove03-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w03/prove03-stretch/prove03-stretch.iml" filepath="$PROJECT_DIR$/CS246-w03/prove03-stretch/prove03-stretch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS249-w04/prove04/prove04.iml" filepath="$PROJECT_DIR$/CS249-w04/prove04/prove04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS249-w04/prove04b/prove04b.iml" filepath="$PROJECT_DIR$/CS249-w04/prove04b/prove04b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w02/ta02/ta02.iml" filepath="$PROJECT_DIR$/CS246-w02/ta02/ta02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w03/teach03/teach03.iml" filepath="$PROJECT_DIR$/CS246-w03/teach03/teach03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS246-w03/teach03-solution/teach03-solution.iml" filepath="$PROJECT_DIR$/CS246-w03/teach03-solution/teach03-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-zone/test-zone.iml" filepath="$PROJECT_DIR$/test-zone/test-zone.iml" />
+    </modules>
+  </component>
+</project>

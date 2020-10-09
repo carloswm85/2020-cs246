@@ -1,0 +1,47 @@
+# 01 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Hello World activity.
+This week we didn't work on teams.
+
+2. For the NSA Cryptography assignment, what did you learn about how Java parameter passing differs from C++?
+Java parameter passing only passes variables by value, and not by reference.
+
+
+3. Did you complete the Stretch Challenge for the NSA Cryptography? If so, briefly describe what you did, and how you structured your code.
+Yes, I did. I had to create a new class for throwing up an exception message for the hashUserPassword. Now that I read the instructions again, I didn't modify the hashUserPassword method, but I just made the class and I throw up the exception from the Test class. Please, let me know if it is ok to make it this other way or if it's a better idea to do it as the instruction says.
+
+
+4. What did you learn from comparing your code to the teacher's solution?
+Now that I noticed the miskate I made in the previous question, something I learned from the teacher's solution, is how to throw exceptions in situations like this one.
+
+
+5. After completing the assignments this week, what questions do you still have?
+None.
+
+
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+I would try to improve what I already have. I would pay special attention to good and better coding practices.
+
+
+7. A common Java interview question is "What are javadocs and when should they be used?". How would you answer that question?
+Javadocs are the explanatory comments added to the code and compiled by the compiler as HTML file. They should be used whenever explanation and clarification over the code is and could be necessary. After typing in this answer, I read about what Javadocs is. It says that "(it) is a documentation generator for generating API documentarion in HTML format from Java source code." (Wikipedia) Also I read somewhere else: "Javadoc is an extensible documentation generation system which reads specially formatted comments in Java source code and generates compiled documentation. It is typically used to produce API documentation in the form of HTML web pages. Many IDEs also make use of Javadocs to generate contextual API descriptions."
+
+
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+It's been a year since the last time I wrote something in Java for the last time, so all the excercises were helpful to remind me what it's all about. Especially the prove assignment, which was pretty challenging by the way.
+
+
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+None.
+
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 3
+01 Teach - 3
+01 Prove 1st Attempt - 6
+01 Prove 2nd Attempt - 3
+01 Ponder - 1
+----------------------------
+Total Hours - 16
+
