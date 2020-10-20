@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/enter_your_favorite_scripture"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/lblInstructions"
+        android:layout_alignStart="@+id/lblInstructions"
+        android:layout_alignLeft="@+id/lblInstructions"
+        android:layout_alignEnd="@+id/lblInstructions"
+        android:layout_alignRight="@+id/lblInstructions"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        
+        android:ems="10"
+        android:hint="@string/book"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/txtChapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txtBook"
+        android:layout_alignStart="@+id/txtBook"
+        android:layout_alignLeft="@+id/txtBook"
+        android:layout_alignEnd="@+id/txtBook"
+        android:layout_alignRight="@+id/txtBook"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+
+        android:ems="10"
+        android:hint="@string/chapter"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/txtVerse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txtChapter"
+        android:layout_alignStart="@+id/txtChapter"
+        android:layout_alignLeft="@+id/txtChapter"
+        android:layout_alignEnd="@+id/txtChapter"
+        android:layout_alignRight="@+id/txtChapter"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+
+        android:ems="10"
+        android:hint="@string/verse"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVerse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:onClick="onDisplayScripture"
+        android:text="@string/display_scripture" />
+
+    <Button
+        android:id="@+id/btnLoadScripture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="onLoadScripture"
+        android:text="@string/load_scripture" />
+
+</RelativeLayout>
+

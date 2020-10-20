@@ -1,0 +1,58 @@
+# 04 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the GitHub activity.
+
+A lot of challenges. But mainly I had some troubles following up to my team mates while doing the assignments.
+
+
+2. What are the advantages to using a version control system like git?
+
+When working alone, the main advantage is being able to roll-back to a previous version of the code. When working in a team, the main advantage is being able to talk less and work more.
+
+
+3. What is the difference between git and GitHub?
+
+Git is a CVS, while GitHub is a service provider for team's CVS.
+
+
+4. What is the purpose of branching in git?
+
+To achieve code isolation and to work over that code without affecting the rest of the code (in a bigger scope).
+
+
+5. Imagine you're working as a software developer for someone who doesn't have any experience with programming. How would you describe version control and git to your employer?
+
+It's just like a big tree. You keep old versions of the program at different points along the height of the tree. If you want to go to olders versions, you go closer to the base, and if you want to go to newer versions, you go up. If you add new version, you make the brancher longer. And if you want an entirely new version of the program, but using the old version of the program, you cut a branch of the main tree and plant it down in the ground. It's just like a big tree.
+
+
+6. After completing the assignments this week, what questions do you still have?
+
+None.
+
+
+7. A common git-related interview question is "How do you revert a commit that has already been pushed and made public?". How would you answer that question?
+
+$ git revert --no-commit PartialCommitHashNumberGoesHere..HEAD
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+
+https://byui-cs.github.io/CS246/week-04/prepare.html
+
+It was comprehensive enough about what we need to know, and abundant.
+
+
+9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+
+N/A
+
+
+10. How many hours did you spend on this class this week?
+
+04 Prepare - 5
+04 Teach - 6
+04 Prove -4
+04 Ponder - 2
+----------------------------
+Total Hours - 17 
+

@@ -1,0 +1,45 @@
+# 05 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Android activity.
+None.
+
+
+2. What is the difference between an Activity and an Intent?
+Activity is the single screen viewed by the user, while an intent is the information that passes from one activity to the next (additionally, I read: It's a messagin object that it is used to request an action from another app component).
+
+
+3. Describe how the onCreate() callback works.
+It works on the Activity Life Cycle. It is the first step the activity does. It is the initial set up stage of the activity's existence. This is when the views are created, variables are assignned, etc.
+
+
+4. What's the biggest challenge you've experienced regarding Android development compared to pure Java development?
+Understanding the relationship between XML and Java files. It's rather simple, but at first, it was confusing and somewhat intimidating.
+
+
+5. After completing the assignments this week, what questions do you still have?
+None.
+
+
+6. A common Android-related interview question is "What's the difference between onPause() and onDestroy() and what kinds of things might you do in those functions?". How would you answer that question?
+OnPause() is an activity method executed when the activity is out of the user's view, while onDestroy() is called when the activity stops existing.
+I read somewhere else:
+OnPause() is called when the system is about to start resuming a previous activity. The paused activity does not receive user input and cannot execute any vode. Followed by either onResume() if the activity returns back to the front, or onStop() if it becomes invisible to the user.
+
+
+7. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+The comments on the teacher's solution to the prove assignment. And the walkthrough to this week's assignment made by the teacher was really helpful.
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+N/A
+
+
+9. How many hours did you spend on this class this week?
+
+05 Prepare - 5
+05 Teach - 4
+05 Prove - 12
+05 Ponder - 2
+----------------------------
+Total Hours - 23
+

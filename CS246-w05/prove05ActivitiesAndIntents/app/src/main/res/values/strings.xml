@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">prove05-ActivitiesAndIntents</string>
+    <string name="enter_your_favorite_scripture">Enter your favorite scripture:</string>
+    <string name="book">Book</string>
+    <string name="chapter">Chapter</string>
+    <string name="verse">Verse</string>
+    <string name="display_scripture">Display Scripture</string>
+    <string name="favorite_scripture">Favorite Scripture</string>
+    <string name="save_scripture">Save Scripture</string>
+    <string name="load_scripture">Load Scripture</string>
+</resources>
