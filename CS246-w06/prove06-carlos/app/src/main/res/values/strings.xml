@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">weather_query</string>
+    <string name="current_temperature">Current Temperature</string>
+    <string name="current_forecast">Current Forecast</string>
+    <string name="location_name">Location Name</string>
+    <string name="weather">Weather</string>
+    <string name="temperature">Temperature</string>
+    <string name="wind">Wind</string>
+    <string name="time">Time</string>
+</resources>

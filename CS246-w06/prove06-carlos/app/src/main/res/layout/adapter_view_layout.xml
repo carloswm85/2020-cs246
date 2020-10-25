@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="@string/time"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_weight="75" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="25"
+        android:weightSum="75"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:text="@string/weather"
+            android:layout_height="match_parent"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_weight="50" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:text="@string/temperature"
+            android:layout_height="match_parent"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_weight="50"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:text="@string/wind"
+            android:layout_height="match_parent"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_weight="50" />
+
+    </LinearLayout>
+
+</LinearLayout>

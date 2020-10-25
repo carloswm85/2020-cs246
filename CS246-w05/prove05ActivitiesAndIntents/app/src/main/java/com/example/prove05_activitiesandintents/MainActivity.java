@@ -75,6 +75,6 @@ public class MainActivity extends AppCompatActivity {
         txtChapter.setText(chapter);
         txtVerse.setText(verse);
 
-        Toast.makeText(this, "Information loaded from memory.", Toast.LENGTH_SHORT). show();
+        Toast.makeText(this, "Information loaded from memory.", Toast.LENGTH_SHORT).show();
     }
 }
