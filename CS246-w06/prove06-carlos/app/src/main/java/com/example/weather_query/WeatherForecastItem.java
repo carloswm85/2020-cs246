@@ -12,24 +12,46 @@ import java.util.Map;
 public class WeatherForecastItem {
     public static final String TAG = "CWM_WF_ITEM";
 
-    // Retrieve: Time, Temperature, Weather conditions, Wind
     @SerializedName("dt_txt") // Time
-    String date;
+    private String dateText;
 
     @SerializedName("main") // Temperature
-    public Map<String, Object> measurements;
+    private Map<String, Float> measurements;
 
     @SerializedName("weather") // Weather conditions
-    public List<WeatherForecastConditions> list;
+    private List<WeatherForecastConditions> descriptions;
 
-    public Map<String, Float> wind; // Wind
+    private Map<String, Float> wind; // Wind
 
-
-    public WeatherForecastItem(String date) {
-        this.date = date;
-        this.measurements = new HashMap<>();
-        this.list = new ArrayList<>();
-        this.wind = new HashMap<>();
+    public String getDateText() {
+        return dateText;
     }
 
+    public void setDateText(String dateText) {
+        this.dateText = dateText;
+    }
+
+    public Map<String, Float> getMeasurements() {
+        return measurements;
+    }
+
+    public void setMeasurements(Map<String, Float> measurements) {
+        this.measurements = measurements;
+    }
+
+    public List<WeatherForecastConditions> getDescriptions() {
+        return descriptions;
+    }
+
+    public void setDescriptions(List<WeatherForecastConditions> descriptions) {
+        this.descriptions = descriptions;
+    }
+
+    public Map<String, Float> getWind() {
+        return wind;
+    }
+
+    public void setWind(Map<String, Float> wind) {
+        this.wind = wind;
+    }
 }

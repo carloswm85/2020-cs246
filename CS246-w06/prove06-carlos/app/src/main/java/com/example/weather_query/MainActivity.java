@@ -72,13 +72,13 @@ public class MainActivity extends AppCompatActivity {
         CurrentForecast current = new CurrentForecast(list, location);
         Thread localThread = new Thread(current);
         localThread.start();
-
-        // Logcat and toast, part of the assignmentm used for development and testing.
-
-//        String LogcatMessage = "> LOGCAT: ShowForecast: City: " + city;
-//        Log.d(TAG, LogcatMessage);
 //
-//        Toast toast = Toast.makeText(this.getApplicationContext(), "> TOAST: ShowForecast: City: " + city, Toast.LENGTH_SHORT);
-//        toast.show();
+//        // Logcat and toast, part of the assignmentm used for development and testing.
+//
+////        String LogcatMessage = "> LOGCAT: ShowForecast: City: " + city;
+////        Log.d(TAG, LogcatMessage);
+////
+////        Toast toast = Toast.makeText(this.getApplicationContext(), "> TOAST: ShowForecast: City: " + city, Toast.LENGTH_SHORT);
+////        toast.show();
     }
 }

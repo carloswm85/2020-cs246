@@ -19,10 +19,13 @@ public class WeatherForecastContainer {
     public static final String TAG = "CWM_WF_CONTAINER"; // Logcat TAG
 
     @SerializedName("list")
-    public List<WeatherForecastItem> forecastList;
+    private List<WeatherForecastItem> forecastList;
 
-    public WeatherForecastContainer() {
-        forecastList = new ArrayList<>();
-        System.out.println(forecastList);
+    public List<WeatherForecastItem> getForecastList() {
+        return forecastList;
+    }
+
+    public void setForecastList(List<WeatherForecastItem> forecastList) {
+        this.forecastList = forecastList;
     }
 }

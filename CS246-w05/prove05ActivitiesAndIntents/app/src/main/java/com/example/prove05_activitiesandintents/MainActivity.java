@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("Favorite Scripture");
+        setTitle("My Favorite Scripture");
 
 //        Button button = (Button) findViewById(R.id.btnDisplay);
 //        button.setOnClickListener(new View.OnClickListener() {

@@ -31,10 +31,10 @@ public class CurrentForecast implements Runnable {
 
     private void forecastToListView() {
         String response = WeatherDataRetriever.forecast(location);
-        Gson gson = new Gson();
-        WeatherForecastContainer wf = gson.fromJson(response, WeatherForecastContainer.class);
-
-        System.out.println(wf);
+//        Gson gson = new Gson();
+//        WeatherForecastContainer wf = gson.fromJson(response, WeatherForecastContainer.class);
+//
+//        System.out.println(wf);
         Log.d(TAG, response);
     }
 }
