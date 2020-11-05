@@ -1,0 +1,60 @@
+# 07 Ponder : Weekly Reflection
+
+1. Did you fulfill all aspects of your team agreement this week, or if there was an infraction, did you fulfill the appropriate accountability measure? (If not, please explain.)
+
+Yes.
+N/A
+
+
+2. Did you hold your teammates accountable for upholding their commitments this week? (If not, please explain.)
+
+Yes, I did.
+
+
+3. Are there any concerns regarding your project or your team that you want the teacher to know about?
+
+N/A
+
+
+4. What is the purpose of a UML class diagram?
+
+To show the relationship between elements in a given system, for better human understanding.
+
+
+5. What are some benefits of the MVC pattern?
+
+It supports the separation of concerns. It increases testability of the code and makes any possible extension easier.
+
+
+6. What are some drawbacks to the MVC pattern?
+
+The view depends on the Controller and the Model. This relationship leads to a decreament in the flexibility of the pattern.
+It's not clear who handles the UI Logic. The handling of UI logic is not limited to a single class.
+
+
+7. A common design-pattern interview question is "Describe the difference between the MVC pattern and the MVP variant.". How would you answer that question?
+
+The data-flow and event-flow in MVC is circular. The view will often contain signigicant logic (like event handlers for user actions).
+The MVP architecture replaces the controller with a presenter, which mediates between the view and the model in a liner system.
+
+
+8. How would you explain to a new developer why they should go through the trouble of using the MVC pattern?
+
+It modularizes things (classes, views, etc) and the work we do.
+
+
+9. Give an example of when the MVC pattern would be overkill for a project.
+
+Probably for a small project, but I've read some opinions saying that the size of the project is not an impediment for using the MVC pattern. The entire pattern could be in one file, and have one page.
+
+
+10. How many hours did you spend on this class this week?
+
+07 Prepare - 6
+07 Teach - 3
+07 Prove - 3
+07 Ponder - 2
+07 Team Project - 12
+----------------------------
+Total Hours - 26
+

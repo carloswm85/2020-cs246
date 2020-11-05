@@ -1,0 +1,55 @@
+# 06 Ponder : Weekly Reflection
+
+1. Describe how multithreading works.
+It works by running new processes on different instances than the main process. This means that the system
+can execute more than a task at the time, with out stopping.
+
+
+2. What is the difference between sublcassing Thread and implementing Runnable?
+Subclassing means that I will have to instantiate more objects, in which case, I will have more subclasses of the
+Thread object running. This means, more memory usage.
+On the other hand, implementing runnable is more economic, since I'm just implementing the Runnable interfece in any given
+class I'm using. This means, a lot less of memory usage than in the previous case.
+
+
+3. What was one of the most difficult challenges your team faced working on the multithreading assignment?
+We couldn't solve the stretch challenge.
+
+
+4. After completing the assignments this week, what questions do you still have?
+About deserializing object with composed elements. I mean, with values of different data types.
+
+
+5. A common Android-related interview question is "If you need to update the GUI from a background thread, how can you accomplish this?". How would you answer that question?
+I would use the RunOnIUThread method.
+
+
+6. How would you explain to a new developer what a software design pattern is?
+They are maps or template about how to design and build programs.
+
+
+7. Give an example of when you would use the Strategy pattern other than the examples given in the reading.
+Electrical energy production. The user does not care how the energy is produced, as long as he receive it in his or her
+house. Such energy could be produced using the wind, nuclear procedures, geotermal origins, and others.
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+https://sourcemaking.com/
+Sistematic, clear explanations. Also, it has a side site that develops even more and with more examples the
+design patterns.
+
+
+9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+https://developer.android.com/guide/components/processes-and-threads.html?authuser=1
+It has a not friendly beginner developer explanation.
+
+
+10. How many hours did you spend on this class this week?
+
+06 Prepare - 5
+06 Teach - 4
+06 Prove - 12
+06 Ponder - 1
+----------------------------
+Total Hours - 22
+
